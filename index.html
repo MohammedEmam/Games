@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <!-- Spinner -->
+    <div class= "loading ">
+      <span class="loader"></span>
+    </div>
+
+    <div class="imgLayerSection1">
+      <!-- <img class="w-100" src="Images/wraper.png" alt=""> -->
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg  text-white ">
+      <div class="container navDiv w-75 m-auto py-2">
+        <div class="d-flex justify-content-start align-items-center ">
+          <img class="me-3 " src="Images/logo-sm.svg" alt="">
+          <h2 class="navbar-brand fw-lighter m-0 p-0">GAME REVIEWS</h2>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" type="MMORPG" href="#">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" type="SHOOTER" href="#">SHOOTER</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" type="SAILING" href="#">SAILING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" type="PERMADEATH" href="#">PERMADEATH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" type="SUPERHERO" href="#">SUPERHERO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" type="PIXEL" href="#">PIXEL</a>
+          </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <!-- <header class=" text-white position-sticky top-0 ">
+      <div class="navDiv px-3 w-75 m-auto navBar d-flex justify-content-between align-items-center p-2 shadow-sm ">
+        <div class="d-flex justify-content-between align-items-center ">
+          <img class="me-3" src="Images/logo-sm.svg" alt="">
+          <h2 class="fw-lighter m-0 p-0">GAME REVIEWS</h2>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <ul class=" d-flex justify-content-center align-items-center  gap-3 m-0">
+            <li class="">
+              <a class=" active" aria-current="page" type="MMORPG" href="#">MMORPG</a>
+            </li>
+            <li class="">
+              <a class=" " aria-current="page" type="SHOOTER" href="#">SHOOTER</a>
+            </li>
+            <li class="">
+              <a class=" " aria-current="page" type="SAILING" href="#">SAILING</a>
+            </li>
+            <li class="">
+              <a class=" " aria-current="page" type="PERMADEATH" href="#">PERMADEATH</a>
+            </li>
+            <li class="">
+              <a class=" " aria-current="page" type="SUPERHERO" href="#">SUPERHERO</a>
+            </li>
+            <li class="">
+              <a class=" " aria-current="page" type="PIXEL" href="#">PIXEL</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </header> -->
+<section>
+  <div class="container my-3">
+    <div class="row gamesRow g-4">
+    </div>
+  </div>
+
+</section>
+
+
+
+<section class="sectiondetails">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2>Details Game</h2>
+      <i class="fa-solid fa-xmark closedetails"></i>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img  class="w-100 imgdetails mb-3" src="" alt="">
+        <img  class="w-100 imgdetails1 mb-3" src="" alt="">
+      </div>
+      <div class="col-md-8">
+        <div class="d-flex justify-content-start align-items-center ">
+          <h4 class="fw-normal me-2 fontSize">Title: </h4>
+          <h4 class="fw-normal titledetails">  </h4>
+        </div>
+        <div class="d-flex justify-content-start align-items-center ">
+          <h6 class="fw-normal me-2 ">Category: </h6>
+          <h4 class="fw-normal categorydetails btn btn-info  p-0">  </h4>
+        </div>
+        <div class="d-flex justify-content-start align-items-center me-2">
+          <h6 class="fw-normal me-2 ">Platform: </h6>
+          <h4 class="fw-normal Platformdetails btn btn-info  p-0 ">  </h4>
+        </div>
+        <div class="d-flex justify-content-start align-items-center">
+          <h6 class="fw-normal me-2 ">Status: </h6>
+          <h4 class="fw-normal statusdetails btn btn-info p-0 ">  </h4>
+        </div>
+        <p class="descriptiondetails me-3"></p>
+        <a  class="btn btn-outline-warning urldetails" href="" target="_blank">Show Game</a>
+      </div>
+    </div>
+  </div>
+</section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
